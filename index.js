@@ -1,5 +1,4 @@
 const fs = require('fs');
-const path = require('path');
 
 const day = process.argv[2];
 const debug = process.argv.includes('-d');
