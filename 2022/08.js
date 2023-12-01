@@ -1,4 +1,4 @@
-const { findKey, sortAsc } = require('./helpers.js');
+const { findKey, sortAsc } = require('../helpers.js');
 
 module.exports = (input) => {
 

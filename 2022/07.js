@@ -1,4 +1,4 @@
-const { sortAsc, sum } = require('./helpers.js');
+const { sortAsc, sum } = require('../helpers.js');
 
 class Directory {
   constructor(name) {

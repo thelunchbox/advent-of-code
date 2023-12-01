@@ -1,4 +1,4 @@
-const { cloneDeep, findKey, sum } = require('./helpers.js');
+const { cloneDeep, findKey, sum } = require('../helpers.js');
 
 module.exports = (input) => {
 

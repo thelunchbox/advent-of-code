@@ -1,4 +1,4 @@
-const { sum } = require('./helpers.js');
+const { sum } = require('../helpers.js');
 
 module.exports = (input) => {
   const elves = input.reduce((elves, cals) => {

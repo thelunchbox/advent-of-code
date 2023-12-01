@@ -1,4 +1,4 @@
-const { findKey, sum } = require('./helpers.js');
+const { findKey, sum } = require('../helpers.js');
 
 const SELECTION_SCORE_MAP = {
   A: 1,

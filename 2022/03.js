@@ -1,4 +1,4 @@
-const { findKey, sum } = require('./helpers.js');
+const { findKey, sum } = require('../helpers.js');
 
 const LOWERCASE_BASIS = 'a'.charCodeAt(0) - 1;
 const UPPERCASE_BASIS = 'A'.charCodeAt(0) - 27;
