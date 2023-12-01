@@ -3,13 +3,17 @@
 
 ## Running a Solution
 
-For any given day, in order to run the solution, simply use `node` to run that day specifically.
+For any given day, in order to run the solution, use `node index {day}`
 
-e.g. `node 04.js`
+e.g. `node index 04`
 
-To run that day's solution in debug mode (using the example input instead of the actual input), add the `-d` flag.
+You can use `-d` to run that solution in debug mode, which will use the debug data file
 
-e.g. `node 04.js -d`
+e.g. `node index 04 -d`
+
+It will assume the current year, but if you want to run a previous year, add it like this
+
+e.g. `node index 04 2022 -d`
 
 ## Creating a Solution for a Day
 
